@@ -1,8 +1,8 @@
-export default function navbar(){
-    return `
+export default function navbar() {
+  return `
     <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top navbar">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="./home.html">
         <img src="images/logo.svg" alt="logo" class="img-fluid" id="logo1221">
       </a>
       <p class="checkhead1221">SECURE CHECKOUT</p>
@@ -20,5 +20,5 @@ export default function navbar(){
         </ul>
       </div>
     </div>
-  </nav>`
+  </nav>`;
 }
